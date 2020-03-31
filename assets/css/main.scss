@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Block comment, should appear in CSS */
+
+// Line comment, should not appear
+
+/* @import "nonexistent-1.css"; */
+// @import "nonexistent-2.css";
+$bg-color: "white";
+$fg-color: "black";
+
+@import "colors";

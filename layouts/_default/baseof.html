@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>{{ .Page.Title }}</title>
+      {{- $css := resources.Get "css/main.scss" | toCSS }}
+      <link href="{{ $css.RelPermalink }}" rel="stylesheet"/>
+    </head>
+    <body>
+        {{- block "main" . }}{{- end }}
+    </body>
+</html>

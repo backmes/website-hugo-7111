@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* @import "nonexistent-1.css"; */
+// @import "nonexistent-2.css";
+$bg-color: "white";
+$fg-color: "black";
+
+@import "colors";
